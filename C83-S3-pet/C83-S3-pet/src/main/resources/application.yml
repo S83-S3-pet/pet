@@ -14,5 +14,4 @@ logging:
       yc:
         C83S3blog: debug
        
-resource:
-  static-locations: ["/templates/","/static/"]       
+      
