@@ -1,6 +1,8 @@
 package com.yc.C83S3pet.bean;
 
-public class Blog implements java.io.Serializable{
+import java.util.Date;
+
+public class Pet_blog implements java.io.Serializable{
 
 	/**
 	 * 博客
@@ -10,7 +12,7 @@ public class Blog implements java.io.Serializable{
 	private String bname;
 	private String title;
 	private String bdesc;
-	private String createTime;
+	private Date createtime;
 	private Integer uid;
 	public Integer getBid() {
 		return bid;
@@ -36,11 +38,11 @@ public class Blog implements java.io.Serializable{
 	public void setBdesc(String bdesc) {
 		this.bdesc = bdesc;
 	}
-	public String getCreateTime() {
-		return createTime;
+	public Date getCreatetime() {
+		return createtime;
 	}
-	public void setCreateTime(String createTime) {
-		this.createTime = createTime;
+	public void setCreatetime(Date createtime) {
+		this.createtime = createtime;
 	}
 	public Integer getUid() {
 		return uid;
@@ -48,6 +50,7 @@ public class Blog implements java.io.Serializable{
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
+	
 	
 	
 

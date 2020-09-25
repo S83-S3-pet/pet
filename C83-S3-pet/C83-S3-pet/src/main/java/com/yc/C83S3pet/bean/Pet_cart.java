@@ -1,20 +1,20 @@
 package com.yc.C83S3pet.bean;
 
-public class Cart implements java.io.Serializable{
+public class Pet_cart implements java.io.Serializable{
 
 	/**
 	 * 购物车
 	 */
 	private static final long serialVersionUID = 1L;
-	private Integer cartId;
+	private Integer cartid;
 	private Integer uid;
 	private Integer pid;
 	private Integer count;
-	public Integer getCartId() {
-		return cartId;
+	public Integer getCartid() {
+		return cartid;
 	}
-	public void setCartId(Integer cartId) {
-		this.cartId = cartId;
+	public void setCartid(Integer cartid) {
+		this.cartid = cartid;
 	}
 	public Integer getUid() {
 		return uid;
@@ -34,5 +34,6 @@ public class Cart implements java.io.Serializable{
 	public void setCount(Integer count) {
 		this.count = count;
 	}
+	
 	
 }

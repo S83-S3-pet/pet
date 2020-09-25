@@ -1,16 +1,16 @@
 package com.yc.C83S3pet.bean;
 
-public class Pet implements java.io.Serializable{
+public class Pet_pets implements java.io.Serializable{
 	/**
 	 * 宠物实体类
 	 */
 	private static final long serialVersionUID = 1L;
 	private Integer pid;
 	private String pname;
-	private Integer shopPrice;
+	private Integer shopprice;
 	private String image;
 	private String pdesc;
-	private Integer state;
+	private String state;
 	private Integer cid;
 	public Integer getPid() {
 		return pid;
@@ -24,11 +24,11 @@ public class Pet implements java.io.Serializable{
 	public void setPname(String pname) {
 		this.pname = pname;
 	}
-	public Integer getShopPrice() {
-		return shopPrice;
+	public Integer getShopprice() {
+		return shopprice;
 	}
-	public void setShopPrice(Integer shopPrice) {
-		this.shopPrice = shopPrice;
+	public void setShopprice(Integer shopprice) {
+		this.shopprice = shopprice;
 	}
 	public String getImage() {
 		return image;
@@ -42,10 +42,10 @@ public class Pet implements java.io.Serializable{
 	public void setPdesc(String pdesc) {
 		this.pdesc = pdesc;
 	}
-	public Integer getState() {
+	public String getState() {
 		return state;
 	}
-	public void setState(Integer state) {
+	public void setState(String state) {
 		this.state = state;
 	}
 	public Integer getCid() {
@@ -54,6 +54,7 @@ public class Pet implements java.io.Serializable{
 	public void setCid(Integer cid) {
 		this.cid = cid;
 	}
+	
 	
 
 }

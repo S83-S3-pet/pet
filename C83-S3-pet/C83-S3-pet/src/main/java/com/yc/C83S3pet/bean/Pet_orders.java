@@ -1,6 +1,8 @@
 package com.yc.C83S3pet.bean;
 
-public class Orders implements java.io.Serializable{
+import java.util.Date;
+
+public class Pet_orders implements java.io.Serializable{
 
 	/**
 	 * 订单
@@ -8,8 +10,8 @@ public class Orders implements java.io.Serializable{
 	private static final long serialVersionUID = 1L;
 	private Integer oid;
 	private Integer total;
-	private String orderTime;
-	private Integer state;
+	private Date ordertime;
+	private String state;
 	private String addr;
 	private String phone;
 	private Integer uid;
@@ -26,16 +28,16 @@ public class Orders implements java.io.Serializable{
 	public void setTotal(Integer total) {
 		this.total = total;
 	}
-	public String getOrderTime() {
-		return orderTime;
+	public Date getOrdertime() {
+		return ordertime;
 	}
-	public void setOrderTime(String orderTime) {
-		this.orderTime = orderTime;
+	public void setOrdertime(Date ordertime) {
+		this.ordertime = ordertime;
 	}
-	public Integer getState() {
+	public String getState() {
 		return state;
 	}
-	public void setState(Integer state) {
+	public void setState(String state) {
 		this.state = state;
 	}
 	public String getAddr() {
@@ -62,6 +64,7 @@ public class Orders implements java.io.Serializable{
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 	
 
 }

@@ -1,17 +1,19 @@
 package com.yc.C83S3pet.bean;
 
-public class User implements java.io.Serializable{
+import java.util.Date;
+
+public class Pet_user implements java.io.Serializable{
 	/**
 	 * 用户实体类
 	 */
 	private static final long serialVersionUID = 1L;
 	private Integer uid;
-	private String userName;
+	private String username;
 	private String password;
-	private Integer phone;
+	private String phone;
 	private String sex;
-	private Integer state;
-	private String createTime;
+	private String state;
+	private Date createtime;
 	private String addr;
 	public Integer getUid() {
 		return uid;
@@ -19,11 +21,11 @@ public class User implements java.io.Serializable{
 	public void setUid(Integer uid) {
 		this.uid = uid;
 	}
-	public String getUserName() {
-		return userName;
+	public String getUsername() {
+		return username;
 	}
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 	public String getPassword() {
 		return password;
@@ -31,10 +33,10 @@ public class User implements java.io.Serializable{
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public Integer getPhone() {
+	public String getPhone() {
 		return phone;
 	}
-	public void setPhone(Integer phone) {
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 	public String getSex() {
@@ -43,17 +45,17 @@ public class User implements java.io.Serializable{
 	public void setSex(String sex) {
 		this.sex = sex;
 	}
-	public Integer getState() {
+	public String getState() {
 		return state;
 	}
-	public void setState(Integer state) {
+	public void setState(String state) {
 		this.state = state;
 	}
-	public String getCreateTime() {
-		return createTime;
+	public Date getCreatetime() {
+		return createtime;
 	}
-	public void setCreateTime(String createTime) {
-		this.createTime = createTime;
+	public void setCreatetime(Date createtime) {
+		this.createtime = createtime;
 	}
 	public String getAddr() {
 		return addr;

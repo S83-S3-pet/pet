@@ -1,6 +1,6 @@
 package com.yc.C83S3pet.bean;
 
-public class Address implements java.io.Serializable{
+public class Pet_address implements java.io.Serializable{
 
 	/**
 	 * 地址实体类
@@ -27,5 +27,6 @@ public class Address implements java.io.Serializable{
 	public void setAddr(String addr) {
 		this.addr = addr;
 	}
+	
 	
 }

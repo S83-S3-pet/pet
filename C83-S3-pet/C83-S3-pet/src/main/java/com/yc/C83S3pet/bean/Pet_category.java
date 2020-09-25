@@ -1,6 +1,6 @@
 package com.yc.C83S3pet.bean;
 
-public class Category implements java.io.Serializable{
+public class Pet_category implements java.io.Serializable{
 
 	/**
 	 * 分类
